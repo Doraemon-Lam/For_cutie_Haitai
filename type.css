@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('statics/font.ttf') format('ttf');
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -7,8 +12,9 @@ body {
     background-image: url("statics/background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'MyCustomFont';
     font-style: italic;
+    font-weight: bold;
 }
 
 #container {
