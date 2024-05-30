@@ -1,0 +1,34 @@
+/* Styles for the welcome page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("statics/front.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'MyCustomFont';
+    font-style: italic;
+    font-weight: bold;
+}
+
+#welcomeContainer {
+    text-align: center;
+}
+
+#enterButton {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    line-height: 20px;
+}
+
+#enterButton span {
+    display: block;
+}

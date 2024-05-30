@@ -41,4 +41,6 @@ window.onload = function() {
     secondColumnDiv.appendChild(offsetDiv);
 
     typeFirstColumn();
+
+
 };
