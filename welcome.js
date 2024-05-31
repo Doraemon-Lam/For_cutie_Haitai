@@ -32,8 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div id="firstColumn" class="column"></div>
                 <div id="secondColumn" class="column"></div>
             </div>
-            <audio id="backgroundMusic" src="statics/background.mp3" autoplay></audio>
-            <iframe src="statics/background.mp3" allow="autoplay" hidden></iframe>
         `;
 
         // 手动插入新的 CSS 文件
