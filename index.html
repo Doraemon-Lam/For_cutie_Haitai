@@ -9,27 +9,11 @@
 <body>
     <div id="welcomeContainer">
         <button id="enterButton">
-            <span>少年よ</span><br>
-            <span>神話になれ</span>
+            <span id="line1"></span><br>
+            <span id="line2"></span>
         </button>
     </div>
+    <audio id="backgroundMusic" src="statics/background.mp3" loop></audio>
     <script src="welcome.js"></script>
-
-    <div id="container">
-        <button id="playButton">Play Music</button>
-        <div id="status"></div>
-    </div>
-    <audio id="testMusic" src="statics/background.mp3"></audio>
-    <script>
-        document.getElementById('playButton').addEventListener('click', function() {
-            var testMusic = document.getElementById('testMusic');
-            testMusic.play().then(() => {
-                document.getElementById('status').innerText = 'Music is playing.';
-            }).catch((error) => {
-                document.getElementById('status').innerText = 'Failed to play music: ' + error.message;
-                document.getElementById('status').style.color = 'red';
-            });
-        });
-    </script>
 </body>
 </html>
